@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ahad\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Ahad\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\local\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Git\mingw32\bin;C:\Program Files (x86)\Git\usr\bin;C:\Users\Ahad\bin;C:\Python310\Scripts;C:\Python310;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Git\cmd;C:\Users\Ahad\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PostgreSQL\14\lib;C:\Program Files\PostgreSQL\14\bin;C:\MinGW\bin;C:\src\flutter\bin;C:\Program Files\Dart\dart-sdk\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\JetBrains\WebStorm 2022.3;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Ahad\AppData\Local\Microsoft\WindowsApps;C:\Users\Ahad\go\bin;C:\Users\Ahad\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\Ahad\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PostgreSQL\14\lib;C:\Program Files\PostgreSQL\14\bin;C:\Users\Ahad\AppData\Local\JetBrains\Toolbox\scripts;C:\MinGW\bin;C:\Users\Ahad\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\Users\Ahad\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\WebStorm 2022.3;C:\Program Files (x86)\Git\usr\bin\vendor_perl;C:\Program Files (x86)\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open 'C:\Users\Ahad\AppData\Local\Yarn\Cache\v6\npm-@aws-sdk-types-3.266.1-1b03465c5109a4009f1e25387772217cdb533fc2-integrity\node_modules\@aws-sdk\types\.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.20.1",
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "mongoose": "^6.9.1",
+      "nodemon": "^2.0.20",
+      "socket.io": "^4.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
